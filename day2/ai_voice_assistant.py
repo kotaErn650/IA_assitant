@@ -62,7 +62,7 @@ def run_chain(question):
 
 
 #Main saludo
-speak("Hola amo y señor mucho gusto soy Yarvits en que puedo ayudar!!")
+speak("Otra vez usted.. jose ahora que quiere y no joda tanto")
 while True:
      query = listen()
      if "salir" in query or "stop" in query:
@@ -71,4 +71,4 @@ while True:
      if query:
           response = run_chain(query)
           print(f"\n iA RESPUESTA : {response}")
-          speak(response)
+          speak(response)  
